@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 // quando o Angular (frontend) e a API (backend) estão rodando no mesmo domínio
-// http://localhost:4200 http://localhost:3000, por exemplo, existe um bloqueio nas requisições
+// http://localhost:4200 e http://localhost:3000, por exemplo, existe um bloqueio nas requisições
 // o CORS - Cross-Origin Resource Sharing ou compartilhamento de recursos de origem cruzada
 const cors = require ('cors'); // este módulo deve resolver o problema
 
